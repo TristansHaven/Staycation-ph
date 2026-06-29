@@ -1,12 +1,12 @@
 export default function Home() {
   const amenities = [
     { icon: '🏊', label: 'Swimming pool' },
-    { icon: '🏛️', label: 'Mini Coliseum' },
+    { icon: '🏛️', label: 'Mini Rome Colisseum' },
     { icon: '🗿', label: 'Easter Island statues' },
     { icon: '🍕', label: 'Leaning Tower replica' },
     { icon: '⛺', label: 'Camping ground' },
     { icon: '🌳', label: 'Hundreds of trees' },
-    { icon: '🏡', label: 'Uniquely designed house' },
+    { icon: '🏡', label: 'Unique designed house' },
     { icon: '🔒', label: 'Exclusive full access' },
   ]
 
