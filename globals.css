@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-forest:  #2D5016;
+  --color-stone:   #8B7355;
+  --color-clay:    #C4622D;
+  --color-cream:   #F5F0E8;
+  --color-leaf:    #7AB648;
+}
+
+@layer base {
+  body {
+    background-color: #F5F0E8;
+    color: #5C4A32;
+  }
+  h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-forest text-cream px-6 py-3 rounded-xl font-medium hover:bg-forest-dark transition-colors;
+  }
+  .btn-secondary {
+    @apply bg-cream border border-stone text-stone-dark px-6 py-3 rounded-xl font-medium hover:bg-cream-dark transition-colors;
+  }
+  .card {
+    @apply bg-white rounded-2xl border border-stone/20 shadow-sm p-6;
+  }
+  .input {
+    @apply w-full border border-stone/30 rounded-xl px-4 py-3 bg-white text-stone-dark focus:outline-none focus:ring-2 focus:ring-forest/30 focus:border-forest;
+  }
+  .badge-pending   { @apply bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded-full font-medium; }
+  .badge-confirmed { @apply bg-green-100  text-green-800  text-xs px-2 py-1 rounded-full font-medium; }
+  .badge-declined  { @apply bg-red-100    text-red-800    text-xs px-2 py-1 rounded-full font-medium; }
+  .badge-cancelled { @apply bg-gray-100   text-gray-600   text-xs px-2 py-1 rounded-full font-medium; }
+}
