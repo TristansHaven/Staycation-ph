@@ -45,7 +45,7 @@ export default function Home() {
             <div className="text-3xl mb-3">🏡</div>
             <h3 className="font-display text-forest text-lg mb-1">House 1</h3>
             <p className="text-stone text-sm mb-3">Up to 15 guests · Private pool · Full estate</p>
-            <div className="text-2xl font-display text-forest mb-4">₱8,000 <span className="text-sm font-body text-stone">/ night</span></div>
+            <div className="text-2xl font-display text-forest mb-4">₱15,000 <span className="text-sm font-body text-stone">/ night</span></div>
             <a href="/booking" className="btn-primary block text-center">Check availability</a>
           </div>
         </div>
