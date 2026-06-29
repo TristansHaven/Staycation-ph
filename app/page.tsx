@@ -1,12 +1,12 @@
 export default function Home() {
   const amenities = [
     { icon: '🏊', label: 'Swimming pool' },
-    { icon: '🏛️', label: 'Mini Colosseum' },
+    { icon: '🏛️', label: 'Mini Coliseum' },
     { icon: '🗿', label: 'Easter Island statues' },
     { icon: '🍕', label: 'Leaning Tower replica' },
     { icon: '⛺', label: 'Camping ground' },
     { icon: '🌳', label: 'Hundreds of trees' },
-    { icon: '🏡', label: 'Unique estate house' },
+    { icon: '🏡', label: 'Uniquely designed house' },
     { icon: '🔒', label: 'Exclusive full access' },
   ]
 
@@ -22,7 +22,7 @@ export default function Home() {
           <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg">
             Book your stay
           </a>
-          <p className="text-cream/40 text-xs mt-4">House 1 available · Up to 15 guests · Full estate access</p>
+          <p className="text-cream/40 text-xs mt-4">House 1 available · Up to 16 guests · Full estate access</p>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ export default function Home() {
           <div className="card max-w-sm mx-auto">
             <div className="text-3xl mb-3">🏡</div>
             <h3 className="font-display text-forest text-lg mb-1">House 1</h3>
-            <p className="text-stone text-sm mb-3">Up to 15 guests · Private pool · Full estate</p>
+            <p className="text-stone text-sm mb-3">Up to 16 guests · Private pool · Full estate</p>
             <div className="text-2xl font-display text-forest mb-4">₱15,000 <span className="text-sm font-body text-stone">/ night</span></div>
             <a href="/booking" className="btn-primary block text-center">Check availability</a>
           </div>
