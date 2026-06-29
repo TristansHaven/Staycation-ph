@@ -22,10 +22,10 @@ interface BookingForm {
   cleaningFee: number
 }
 
-const HOUSE1_RATE   = 8000
+const HOUSE1_RATE   = 15000
 const CLEANING_FEE  = 500
 const DOWNPAYMENT_PCT = 30
-const MAX_GUESTS    = 15
+const MAX_GUESTS    = 16
 
 // ─── Helpers ─────────────────────────────────────────────
 function formatPeso(amount: number) {
