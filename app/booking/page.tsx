@@ -25,7 +25,7 @@ interface BookingForm {
 const HOUSE1_RATE   = 15000
 const CLEANING_FEE  = 500
 const DOWNPAYMENT_PCT = 30
-const MAX_GUESTS    = 16
+const MAX_GUESTS    = 15
 
 // ─── Helpers ─────────────────────────────────────────────
 function formatPeso(amount: number) {
@@ -111,12 +111,18 @@ function Step1({ form, setForm, onNext }: {
 
       {/* House card */}
       <div className="card border-2 border-forest mb-6">
-        <div className="flex items-start gap-4">
-          <div className="w-16 h-16 rounded-xl bg-forest/10 flex items-center justify-center text-2xl flex-shrink-0">🏡</div>
-          <div className="flex-1">
-            <div className="flex items-center gap-2 mb-1">
-              <h3 className="font-display text-forest text-lg">House 1</h3>
-              <span className="text-xs bg-leaf/20 text-forest px-2 py-0.5 rounded-full">Available</span>
+        <div className="flex items-start gap-3 flex-col sm:flex-row">
+          <div className="w-12 h-12 rounded-xl bg-forest/10 flex items-center justify-center text-xl flex-shrink-0">🏡</div>
+          <div className="flex-1 min-w-0">
+            <div className="flex items-center justify-between gap-2 mb-1">
+              <div className="flex items-center gap-2">
+                <h3 className="font-display text-forest text-lg">House 1</h3>
+                <span className="text-xs bg-leaf/20 text-forest px-2 py-0.5 rounded-full">Available</span>
+              </div>
+              <div className="text-right ml-2 flex-shrink-0">
+                
+                <div className="text-stone text-xs">/ night</div>
+              </div>
             </div>
             <p className="text-stone text-sm mb-2">Up to {MAX_GUESTS} guests · Full estate access</p>
             <div className="flex flex-wrap gap-2">
@@ -124,10 +130,6 @@ function Step1({ form, setForm, onNext }: {
                 <span key={a} className="text-xs bg-cream-dark text-stone px-2 py-1 rounded-full">{a}</span>
               ))}
             </div>
-          </div>
-          <div className="text-right flex-shrink-0">
-            <div className="text-forest font-medium">{formatPeso(HOUSE1_RATE)}</div>
-            <div className="text-stone text-xs">per night</div>
           </div>
         </div>
       </div>
