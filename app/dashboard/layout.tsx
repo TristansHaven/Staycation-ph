@@ -24,7 +24,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
       <aside className="hidden md:flex flex-col w-56 bg-forest text-cream min-h-screen fixed left-0 top-0">
         <div className="p-5 border-b border-white/10">
           <div className="text-lg font-display">Staycation PH</div>
-          <div className="text-xs text-cream/60 mt-0.5">Owner Dashboard</div>
+          <div className="text-xs text-clay/80 mt-0.7">Tristan's Haven Leisure Farm</div>
         </div>
         <nav className="flex-1 p-3">
           {NAV.map(n => (
