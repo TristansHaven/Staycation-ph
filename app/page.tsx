@@ -23,7 +23,7 @@ export default function Home() {
           <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg">
             Book your stay
           </a>
-          <p className="text-cream/40 text-xs mt-4">House 1 available · Up to 16 guests · 4,650 sq. m. Full estate access</p>
+          <p className="text-cream/80 text-lg mb-2">House 1 available · Up to 16 guests · 4,650 sq. m. Full estate access</p>
         </div>
       </div>
 
