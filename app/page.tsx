@@ -17,7 +17,7 @@ export default function Home() {
         <div className="relative z-10 max-w-2xl mx-auto">
           <div className="text-sm text-cream/60 mb-3 tracking-widest uppercase">General Emilio Aguinaldo, Cavite</div>
           <h1 className="text-4xl sm:text-5xl font-display mb-1">Staycation PH</h1>
-          <p className="text-clay text-sm sm:text-base tracking-wide mb-4">Tristan's Haven Leisure Farm</p>
+          <p className="text-clay text-sm sm:text-base tracking-wide mb-2">Tristan's Haven Leisure Farm</p>
           <p className="text-cream/80 text-lg mb-2">Your private estate escape</p>
           <p className="text-cream/60 text-sm mb-8">45 minutes from Tagaytay · 2 hours from Manila</p>
           <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg">
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="card max-w-sm mx-auto">
             <div className="text-3xl mb-3">🏡</div>
             <h3 className="font-display text-forest text-lg mb-1">House 1</h3>
-            <p className="text-stone text-sm mb-3">Up to 15 guests · Private pool · Full estate</p>
+            <p className="text-stone text-sm mb-3">Up to 16 guests · Private pool · Full estate</p>
             <div className="text-2xl font-display text-forest mb-4">₱15,000 <span className="text-sm font-body text-stone">/ night</span></div>
             <a href="/booking" className="btn-primary block text-center">Check availability</a>
           </div>
