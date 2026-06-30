@@ -6,24 +6,32 @@ export default function Home() {
     { icon: '🍕', label: 'Leaning Tower replica' },
     { icon: '⛺', label: 'Camping ground' },
     { icon: '🌳', label: 'Hundreds of trees' },
-    { icon: '🏡', label: 'Uniquely designed house' },
-    { icon: '🔒', label: 'Exclusive full access' },
+    { icon: '🏡', label: 'Uniquely Designed house' },
+    { icon: '🔒', label: 'Exclusive 6540 sq m full access' },
   ]
 
   return (
     <main className="min-h-screen bg-cream">
       {/* Hero */}
-      <div className="relative bg-forest text-cream py-20 px-4 text-center overflow-hidden">
+      <div className="relative text-cream py-24 px-4 text-center overflow-hidden">
+        {/* Background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: "url('https://res.cloudinary.com/diijtv8ls/image/upload/v1782823806/DRONE_SHOTS_-_webpage_no_gate_cqztby.jpg')" }}
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-forest/70" />
+
         <div className="relative z-10 max-w-2xl mx-auto">
-          <div className="text-sm text-cream/60 mb-3 tracking-widest uppercase">General Emilio Aguinaldo, Cavite</div>
-          <h1 className="text-4xl sm:text-5xl font-display mb-1">Staycation PH</h1>
-          <p className="text-clay text-lg sm:text-3xl tracking-wide mb-6">Tristan's Haven Leisure Farm</p>
-          <p className="text-cream/80 text-lg mb-2">Your private estate escape</p>
-          <p className="text-cream/60 text-sm mb-8">45 minutes from Tagaytay · 2 hours from Manila</p>
-          <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg">
+          <div className="text-sm text-cream/70 mb-3 tracking-widest uppercase">General Emilio Aguinaldo, Cavite</div>
+          <h1 className="text-4xl sm:text-5xl font-display mb-1 drop-shadow-md">Staycation PH</h1>
+          <p className="text-clay text-lg sm:text-3xl tracking-wide mb-4 drop-shadow-md">Tristan's Haven Leisure Farm</p>
+          <p className="text-cream/90 text-lg mb-2 drop-shadow-sm">Your private estate escape</p>
+          <p className="text-cream/70 text-sm mb-8">45 minutes from Tagaytay · 2 hours from Manila</p>
+          <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg shadow-lg">
             Book your stay
           </a>
-          <p className="text-cream/80 text-lg mb-2">House 1 available · Up to 16 guests · 5,640 sq. m. Full estate access</p>
+          <p className="text-cream/60 text-xs mt-4">House 1 available · Up to 16 guests · Full estate access</p>
         </div>
       </div>
 
