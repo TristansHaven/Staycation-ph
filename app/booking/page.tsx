@@ -111,18 +111,15 @@ function Step1({ form, setForm, onNext }: {
 
       {/* House card */}
       <div className="card border-2 border-forest mb-6">
-        <div className="flex items-start gap-3 flex-col sm:flex-row">
+        <div className="flex items-start gap-3">
           <div className="w-12 h-12 rounded-xl bg-forest/10 flex items-center justify-center text-xl flex-shrink-0">🏡</div>
           <div className="flex-1 min-w-0">
-            <div className="flex items-center justify-between gap-2 mb-1">
-              <div className="flex items-center gap-2">
-                <h3 className="font-display text-forest text-lg">House 1</h3>
-                <span className="text-xs bg-leaf/20 text-forest px-2 py-0.5 rounded-full">Available</span>
-              </div>
-              <div className="text-right ml-2 flex-shrink-0">
-                
-                <div className="text-stone text-xs">/ night</div>
-              </div>
+            <div className="flex items-center gap-2 mb-1 flex-wrap">
+              <h3 className="font-display text-forest text-lg">House 1</h3>
+              <span className="text-xs bg-leaf/20 text-forest px-2 py-0.5 rounded-full">Available</span>
+            </div>
+            <div className="text-forest font-medium text-lg mb-2">
+              {formatPeso(HOUSE1_RATE)} <span className="text-stone text-xs font-normal">/ night</span>
             </div>
             <p className="text-stone text-sm mb-2">Up to {MAX_GUESTS} guests · Full estate access</p>
             <div className="flex flex-wrap gap-2">
