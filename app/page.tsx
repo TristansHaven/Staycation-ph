@@ -17,13 +17,13 @@ export default function Home() {
         <div className="relative z-10 max-w-2xl mx-auto">
           <div className="text-sm text-cream/60 mb-3 tracking-widest uppercase">General Emilio Aguinaldo, Cavite</div>
           <h1 className="text-4xl sm:text-5xl font-display mb-1">Staycation PH</h1>
-          <p className="text-clay text-lg sm:text-xl tracking-wide mb-4">Tristan's Haven Leisure Farm</p>
+          <p className="text-clay text-lg sm:text-xl tracking-wide mb-6">Tristan's Haven Leisure Farm</p>
           <p className="text-cream/80 text-lg mb-2">Your private estate escape</p>
           <p className="text-cream/60 text-sm mb-8">45 minutes from Tagaytay · 2 hours from Manila</p>
           <a href="/booking" className="inline-block bg-clay text-cream px-8 py-3 rounded-xl font-medium hover:bg-clay-dark transition-colors text-lg">
             Book your stay
           </a>
-          <p className="text-cream/40 text-xs mt-4">House 1 available · Up to 16 guests · Full estate access</p>
+          <p className="text-cream/40 text-xs mt-4">House 1 available · Up to 16 guests · 4,650 sq. m. Full estate access</p>
         </div>
       </div>
 
