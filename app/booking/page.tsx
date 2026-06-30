@@ -489,6 +489,7 @@ export default function BookingPage() {
         <div className="text-center mb-8">
           <a href="/" className="text-stone/60 text-sm hover:text-forest transition-colors">← Back to home</a>
           <h1 className="text-3xl font-display text-forest mt-2">Book your stay</h1>
+          <p className="text-clay text-xs tracking-wide mt-0.5">Tristan's Haven Leisure Farm</p>
           <p className="text-stone text-sm mt-1">General Emilio Aguinaldo, Cavite · 45 mins from Tagaytay</p>
         </div>
 
